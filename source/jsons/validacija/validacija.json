@@ -1,0 +1,8 @@
+{"uporabniki":[
+	{"ime":"Ladislava", "priimek":"Zid", "email":"ravnatelj@zidarska.si", "geslo":"ravntalej", "vloga":"ravnatelj", "spol":"ž"},
+	{"ime":"Hilda", "priimek":"Tovsakova", "email":"profesor1@zidarska.si", "geslo":"profesor1", "vloga":"profesor", "spol":"ž"}, 
+	{"ime":"Andrej", "priimek":"Burek", "email":"profesor2@zidarska.si", "geslo":"profesor2", "vloga":"profesor", "spol":"m"}, 
+	{"ime":"Martin", "priimek":"Gajs", "email":"dijak1@zidarska.si", "geslo":"dijak1", "vloga":"dijak", "spol":"m"}, 
+	{"ime":"Anja", "priimek":"Gajs", "email":"dijak2@zidarska.si", "geslo":"dijak2", "vloga":"dijak", "spol":"ž"}, 
+	{"ime":"Alenka", "priimek":"Gajs", "email":"stars1@zidarska.si", "geslo":"stars1", "vloga":"stars", "spol":"ž"}
+]}
