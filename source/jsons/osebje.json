@@ -1,0 +1,31 @@
+{"osebje":{
+	"ravnatelj":{
+		"ime":"Ladislava", 
+		"priimek":"Zid",
+		"profesorji":[
+			{"ime":"Hilda", "priimek":"Tovsakova", "predmet":"SLO"},
+			{"ime":"Andrej", "priimek":"Burek", "predmet":"MAT"}
+		]
+	},
+	"profesorji":[
+		{"ime":"Hilda", 
+		 "priimek":"Tovsakova",
+		 "dijaki":[
+			{"ime":"Anja", "priimek":"Gajs", "razred":"3A"},
+			{"ime":"Martin", "priimek":"Gajs", "razred":"1C"}
+		]},
+		{"ime":"Andrej", 
+		 "priimek":"Burek",
+		 "dijaki":[
+			{"ime":"Anja", "priimek":"Gajs", "razred":"3A"}
+		]}
+	],
+	"starsi":[
+		{"ime":"Alenka", 
+		 "priimek":"Gajs",
+		 "otroci":[
+		 	{"ime":"Anja", "priimek":"Gajs"},
+			{"ime":"Martin", "priimek":"Gajs"}
+		]}
+	]
+}}

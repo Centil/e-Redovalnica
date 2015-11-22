@@ -22,8 +22,8 @@ $(document).ready(function(){
 			$("#meni_vnos_ocena").remove();
 			break;
 		default:
-			pobrisiPiskote();
-			window.location.replace("vstop.html");
+			//pobrisiPiskote();
+			//window.location.replace("vstop.html");
 	}
 });
 

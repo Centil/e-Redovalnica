@@ -13,7 +13,7 @@ main {
 	padding: 25px 0px 25px 0px
 }
 
-.ui.header {
+.ui.head {
 	width: auto;
 	background: linear-gradient(180deg, #660000, #880000);
 	border: 3px solid #7e0505;
@@ -22,7 +22,7 @@ main {
 	overflow: hidden;
 }
 
-.ui.footer {
+.ui.foot {
 	height: 40px;
 	text-align: right;
 	color: aliceblue;
