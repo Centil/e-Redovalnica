@@ -1,0 +1,90 @@
+/***** MAIN CSS *****/
+
+body {
+	font-family: "Times New Roman", Times, serif;
+	margin: auto;
+	width: 98%;
+	max-width: 1050px;
+}
+
+section {
+	background-color:aliceblue;
+	padding: 25px 0px 25px 0px
+}
+
+.ui.header {
+	width: auto;
+	background-color: firebrick;
+	border: 3px solid #7e0505;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.ui.footer {
+	height: 40px;
+	text-align: right;
+	color: aliceblue;
+	padding-right: 15px;
+	background-color: firebrick;
+	border: 3px solid #7e0505;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+/***** FORM CSS *****/
+
+.ui.form {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.ui.form .ui.fieldset {
+	text-align: center;
+	font-weight: bold;
+	font-size: x-large;
+	margin: auto;
+	width: 40%;
+	padding: 10px;
+	border-radius: 15px;
+	background-color: white;
+}
+
+.ui.fieldset legend {
+	text-align: center;
+}
+
+.ui.fieldset .ui.group .ui.label, .ui.field, .ui.hint{
+	margin-bottom: 10px;
+}
+
+.ui.fieldset .ui.label {
+	display: inline-block;
+	
+	width: 60px;
+	text-align: right;
+	font-weight: normal;
+	font-size: large;
+	margin: 0px 10px 0px 0px;
+	padding: 0px;
+	align-items: 
+}
+
+.ui.fieldset .ui.field {
+}
+
+.ui.fieldset .ui.hint {
+	color: firebrick;
+	font-weight: normal;
+	font-size: medium;
+}
+
+.ui.fieldset .ui.small.button {
+	width: 80px;
+	font-size: .5em !important;
+	display: inline-block;
+}
+
+
+.ui.hidden {
+	display: none;
+}

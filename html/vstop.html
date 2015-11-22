@@ -5,31 +5,32 @@
 		<meta charset="utf-8">
 		<title>e-Redovalnica</title>
 		
-		<!-- css -->
+		<!-- css jquery -->
 		<link rel="stylesheet" href="../js/jquery-ui-1.11.4.custom/jquery-ui.min.css">
 		<link rel="stylesheet" href="../js/jquery-ui-1.11.4.custom/jquery-ui.structure.min.css">
 		<link rel="stylesheet" href="../js/jquery-ui-1.11.4.custom/jquery-ui.theme.min.css">
-		<style>
-			.small-button {
-   				font-size: .8em !important;
-			}
-		</style>
+		<!-- css thema -->
+		<link rel="stylesheet" href="../css/tema.css">
+		
 	</head>
 	<body>
-		<header>
+		<header class="ui header">
 			<img src="../source/logo.png" alt="e-Redovalnica">
 		</header>
-		<section>
-			<form id="vstop" method="post">
-				<fieldset>
+		<section class="ui body">
+			<form id="vstop" class="ui form" method="post">
+				<fieldset class="ui fieldset">
 					<legend>Prijava:</legend>
-					E-mail:
-					<input type="text" name="uporabnik" value="" autofocus autocomplete="on">
-					<br>
-					Geslo:
-					<input type="text" name="geslo" value="">
-					<br>
-					<input id="potrdi_vpis" class="small-button" type="button" value="Vpis">
+					<div class="ui group">
+						<label class="ui label">E-mail:</label>
+						<input class="ui field" type="email" name="uporabnik" value="" size="30" autofocus autocomplete="on">
+					</div>
+					<div class="ui group">
+						<label class="ui label">Geslo:</label>
+						<input class="ui field" type="password" name="geslo" value="" size="30">
+					<div>
+					<div id="napaka" class="ui hidden hint">Vnesli ste napačen e-mail ali geslo.</div>
+					<input id="potrdi_vpis" class="ui small button" type="button" value="Vpis">
 				</fieldset>
 			</form>
 			<p>
@@ -39,13 +40,17 @@
 				Za vstop v e-Redovalnico je potrebno vnesti e-mail na katerega ste prejeli geslo.
 			</p>
 		</section>
-		<footer>
+		<footer class="ui footer">
 			&copy; Jan Boštjančič
 		</footer>
 		
-		<!-- javascript -->
+		<!-- javascript jquery -->
 		<script type="text/javascript" src="../js/jquery/jquery-1.11.3.min.js"></script>
 		<script type="application/javascript" src="../js/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+		<!-- javascript tema -->
+		<script type="application/javascript" src="../js/tema.js"></script>
+		<!-- javascript validacija -->
 		<script type="text/javascript" src="../js/validacije/validacija.js"></script>
+		<!-- javascript ostalo -->
 	</body>
 </html>
