@@ -33,6 +33,24 @@ main {
 	border-bottom-right-radius: 15px;
 }
 
+/***** BODY CSS *****/
+
+.ui.body h1, h2, h3, h4, h5, h6 {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.ui.body p {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.ui.body .ui.small.button {
+	width: 80px;
+	font-size: .8em !important;
+	display: inline-block;
+}
+
 /***** FORM CSS *****/
 
 .ui.form {
@@ -119,18 +137,6 @@ main {
 
 .ui.navigation ul li a:hover, a:active {
 	background: linear-gradient(180deg, #660000, #880000);
-}
-
-/***** BODY CSS *****/
-
-.ui.body h1, h2, h3, h4, h5, h6 {
-	margin-left: 25px;
-	margin-right: 25px;
-}
-
-.ui.body p {
-	margin-left: 25px;
-	margin-right: 25px;
 }
 
 /***** OTHER CSS *****/

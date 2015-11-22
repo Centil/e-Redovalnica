@@ -1,0 +1,167 @@
+<! DOCTYPE html>
+
+<html>
+	<head>
+		<!-- metadata -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>e-Redovalnica</title>
+		
+		<!-- css jquery -->
+		<link rel="stylesheet" href="../js/jquery-ui-1.11.4.custom/jquery-ui.min.css">
+		<link rel="stylesheet" href="../js/jquery-ui-1.11.4.custom/jquery-ui.structure.min.css">
+		<link rel="stylesheet" href="../js/jquery-ui-1.11.4.custom/jquery-ui.theme.min.css">
+		<!-- css thema -->
+		<link rel="stylesheet" href="../css/tema.css">
+	</head>
+	<body>
+		<header class="ui head">
+			<img src="../source/logo.png" alt="e-Redovalnica">
+		</header>
+		<nav class="ui navigation">
+				<ul>
+					<li id="meni_info">
+						<a href="info.html">Info</a>
+					</li>
+					<li id="meni_vnos_porocilo">
+						<a href="vnos_porocilo.html">Vnos poročila</a>
+					</li>
+					<li id="meni_vnos_odsotnost">
+						<a href="vnos_odsotnost.html">Vnos odsotnosti</a>
+					</li>
+					<li id="meni_vnos_ocena">
+						<a href="vnos_ocena.html">Vnos ocene</a>
+					</li>
+					<li id="meni_vnos_opravicilo">
+						<a href="vnos_opravicilo.html">Vnos opravičila</a>
+					</li>
+					<li id="meni_prikaz_redovalnica">
+						<a href="prikaz_redovalnica.html">Prikaz redovalnice</a>
+					</li>
+					<li id="meni_prikaz_odsotnost">
+						<a href="prikaz_odsotnost.html">Poročilo odsotnosti</a>
+					</li>
+					<li id="meni_odjava">
+						<a href="vstop.html">Odjava</a>
+					</li>
+				</ul>
+			</nav>
+		<main class="ui body">
+			<h2>Prikaz ocen:</h2>
+			<div class="ui ocen">
+				<div class="ui ocene">
+					<table class="ui tabela">
+						<tr>
+							<th>
+								<label>Semest/Pred</label>
+							</th>
+							<th>
+								<select id="predmet1" class="ui selector" autofocus>
+									<option value="0">---</option>
+									<option value="1">ANG</option>
+									<option value="2">MAT</option>
+									<option value="3">SLO</option>
+									<option value="4">ZGO</option>
+								</select>
+							</th>
+							<th>
+								<select id="predmet2" class="ui selector">
+									<option value="0">---</option>
+									<option value="1">ANG</option>
+									<option value="2">MAT</option>
+									<option value="3">SLO</option>
+									<option value="4">ZGO</option>
+								</select>
+							</th>
+							<th>
+								<select id="predmet3" class="ui selector">
+									<option value="0">---</option>
+									<option value="1">ANG</option>
+									<option value="2">MAT</option>
+									<option value="3">SLO</option>
+									<option value="4">ZGO</option>
+								</select>
+							</th>
+							<th>
+								<select id="predmet4" class="ui selector">
+									<option value="0">---</option>
+									<option value="1">ANG</option>
+									<option value="2">MAT</option>
+									<option value="3">SLO</option>
+									<option value="4">ZGO</option>
+								</select>
+							</th>
+						</tr>
+						<tr>
+							<th>
+								<label>Prvi</label>
+							</th>
+							<td>
+							   <label id="S1_1">3</label>
+							</td>
+							<td>
+							   <label id="S1_2">4</label>
+							</td>
+							<td>
+								<label id="S1_3">3</label>
+							</td>
+							<td>
+								<label id="S1_4">5</label>
+							</td>
+						</tr>
+						<tr>
+							<th>
+								<label>Drugi</label>
+							</th>
+							<td>
+								<label id="S2_1">/</label>
+							</td>
+							<td>
+								<label id="S2_2">/</label>
+							</td>
+							<td>
+								<label id="S2_3">/</label>
+							</td>
+							<td>
+							   <label id="S2_4">/</label>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="ui splosni uspeh">
+					<h3>Splošni uspeh:</h3>
+					<ul>
+						<li>
+							<div class="ui uspeh">
+								<label>Prvi semester:</label>
+								<label id="S1">4</label>
+							</div>
+						</li>
+						<li>
+							<div class="ui uspeh">
+								<label>Drugi semester:</label>
+								<label id="S2">/</label>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</main>
+		<footer class="ui foot">
+			&copy; Jan Boštjančič
+		</footer>
+		
+		<!-- javascript jquery -->
+		<script type="text/javascript" src="../js/jquery/jquery-1.11.3.min.js"></script>
+		<script type="application/javascript" src="../js/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+		<!-- javascript tema -->
+		<script type="application/javascript" src="../js/tema.js"></script>
+		<!-- javascript validacija -->
+		<script type="application/javascript" src="../js/validacije/piskoti.js"></script>
+		<script type="application/javascript" src="../js/validacije/uporabnik.js"></script>
+		<!-- javascript ostalo -->
+		<script type="application/javascript" src="../js/tema.js"></script>
+		<script type="application/javascript" src="../js/prikaz_redovalnica.js"></script>
+	</body>
+</html>

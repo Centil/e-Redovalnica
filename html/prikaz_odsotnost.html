@@ -1,0 +1,99 @@
+<! DOCTYPE html>
+
+<html>
+	<head>
+		<!-- metadata -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>e-Redovalnica</title>
+		
+		<!-- css jquery -->
+		<link rel="stylesheet" href="../js/jquery-ui-1.11.4.custom/jquery-ui.min.css">
+		<link rel="stylesheet" href="../js/jquery-ui-1.11.4.custom/jquery-ui.structure.min.css">
+		<link rel="stylesheet" href="../js/jquery-ui-1.11.4.custom/jquery-ui.theme.min.css">
+		<!-- css thema -->
+		<link rel="stylesheet" href="../css/tema.css">
+	</head>
+	<body>
+		<header class="ui head">
+			<img src="../source/logo.png" alt="e-Redovalnica">
+		</header>
+		<nav class="ui navigation">
+				<ul>
+					<li id="meni_info">
+						<a href="info.html">Info</a>
+					</li>
+					<li id="meni_vnos_porocilo">
+						<a href="vnos_porocilo.html">Vnos poročila</a>
+					</li>
+					<li id="meni_vnos_odsotnost">
+						<a href="vnos_odsotnost.html">Vnos odsotnosti</a>
+					</li>
+					<li id="meni_vnos_ocena">
+						<a href="vnos_ocena.html">Vnos ocene</a>
+					</li>
+					<li id="meni_vnos_opravicilo">
+						<a href="vnos_opravicilo.html">Vnos opravičila</a>
+					</li>
+					<li id="meni_prikaz_redovalnica">
+						<a href="prikaz_redovalnica.html">Prikaz redovalnice</a>
+					</li>
+					<li id="meni_prikaz_odsotnost">
+						<a href="prikaz_odsotnost.html">Poročilo odsotnosti</a>
+					</li>
+					<li id="meni_odjava">
+						<a href="vstop.html">Odjava</a>
+					</li>
+				</ul>
+			</nav>
+		<main class="ui body">
+			<h2>Poročilo odsotnosti:</h2>
+			<div class="ui odsotnost">
+				<p>
+					<label id="info">Poglej odsotnosti dijaka:</label>
+					<select id="dijak" class="ui selector" autofocus>
+						<option value="0">privzeto</option>
+						<option value="1">Anja Gajs</option>
+						<option value="2">Martin Gajs</option>
+						<option value="3">Tomaz Fej</option>
+					</select>
+					<select id="odsotnost" class="ui selector">
+						<option value="0">---</option>
+						<option value="1">11/10/2015</option>
+						<option value="2">18/11/2015</option>
+						<option value="3">23/11/2015</option>
+					</select>
+				</p>
+				<p>
+					<textarea rows="5" cols="50" name="porocilo"></textarea>
+				</p>
+				<p>
+					<label>(opis odsotnosti)</label>
+				</p>
+				<div class="datum">
+					<p>
+						<label>Datum:</label>
+						<input id="datum" class="ui datetime" type="text" disabled="">
+						<label>(dd/mm/yyyy)</label>
+					</p>
+				</div>
+			</div>
+		</main>
+		<footer class="ui foot">
+			&copy; Jan Boštjančič
+		</footer>
+		
+		<!-- javascript jquery -->
+		<script type="text/javascript" src="../js/jquery/jquery-1.11.3.min.js"></script>
+		<script type="application/javascript" src="../js/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+		<!-- javascript tema -->
+		<script type="application/javascript" src="../js/tema.js"></script>
+		<!-- javascript validacija -->
+		<script type="application/javascript" src="../js/validacije/piskoti.js"></script>
+		<script type="application/javascript" src="../js/validacije/uporabnik.js"></script>
+		<!-- javascript ostalo -->
+		<script type="application/javascript" src="../js/tema.js"></script>
+		<script type="application/javascript" src="../js/prikaz_odsotnost.js"></script>
+	</body>
+</html>
