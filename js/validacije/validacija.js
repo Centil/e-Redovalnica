@@ -10,12 +10,18 @@ $(function() {
 				
 				if(upo == uporabnik.email && ges == uporabnik.geslo){
 					dostop = true;
+					
+					ustvariPiskote(tmp.uporabniki[i].ime, 
+								   tmp.uporabniki[i].priimek, 
+								   tmp.uporabniki[i].vloga, 
+								   tmp.uporabniki[i].spol);
 				}
 			}
 		})
-		.done(function() {
+		.done(function(tmp) {
 			if(dostop){
 				$("#napaka").addClass("hidden");
+				
 				window.location.replace("info.html");
 			}
 			else{

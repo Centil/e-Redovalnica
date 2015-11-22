@@ -1,8 +1,11 @@
-<! DOCTYPE html>
+<!DOCTYPE html>
 
 <html>
 	<head>
+		<!-- metadata -->
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
 		<title>e-Redovalnica</title>
 		
 		<!-- css jquery -->
@@ -17,29 +20,30 @@
 		<header class="ui header">
 			<img src="../source/logo.png" alt="e-Redovalnica">
 		</header>
-		<section class="ui body">
+		<main class="ui body">
 			<form id="vstop" class="ui form" method="post">
 				<fieldset class="ui fieldset">
 					<legend>Prijava:</legend>
 					<div class="ui group">
 						<label class="ui label">E-mail:</label>
-						<input class="ui field" type="email" name="uporabnik" value="" size="30" autofocus autocomplete="on">
+						<input class="ui field" type="email" name="uporabnik" value="" size="28" autofocus autocomplete="on" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
 					</div>
 					<div class="ui group">
 						<label class="ui label">Geslo:</label>
-						<input class="ui field" type="password" name="geslo" value="" size="30">
-					<div>
+						<input class="ui field" type="password" name="geslo" value="" size="28">
+					</div>
 					<div id="napaka" class="ui hidden hint">Vnesli ste napačen e-mail ali geslo.</div>
 					<input id="potrdi_vpis" class="ui small button" type="button" value="Vpis">
 				</fieldset>
 			</form>
+			<h3>Pozdravljeni</h3>
 			<p>
-				Pozdravljeni v e-Redovalnici srednje zidarske šole.
+				Nahajate se na strani e-Redovalnici srednje zidarske šole.
 			</p>
 			<p>
 				Za vstop v e-Redovalnico je potrebno vnesti e-mail na katerega ste prejeli geslo.
 			</p>
-		</section>
+		</main>
 		<footer class="ui footer">
 			&copy; Jan Boštjančič
 		</footer>
@@ -50,6 +54,7 @@
 		<!-- javascript tema -->
 		<script type="application/javascript" src="../js/tema.js"></script>
 		<!-- javascript validacija -->
+		<script type="application/javascript" src="../js/validacije/piskoti.js"></script>
 		<script type="text/javascript" src="../js/validacije/validacija.js"></script>
 		<!-- javascript ostalo -->
 	</body>

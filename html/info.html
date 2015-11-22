@@ -2,7 +2,10 @@
 
 <html>
 	<head>
+		<!-- metadata -->
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
 		<title>e-Redovalnica</title>
 		
 		<!-- css jquery -->
@@ -16,11 +19,37 @@
 		<header class="ui header">
 			<img src="../source/logo.png" alt="e-Redovalnica">
 		</header>
-		<section class="ui body">
-			<p>
-				Hello
-			</p>
-		</section>
+		<nav class="ui navigation">
+				<ul>
+					<li id="meni_info">
+						<a href="info.html">Info</a>
+					</li>
+					<li id="meni_vnos_porocilo">
+						<a href="vnos_porocilo.html">Vnos poročila</a>
+					</li>
+					<li id="meni_vnos_odsotnost">
+						<a href="vnos_odsotnost.html">Vnos odsotnosti</a>
+					</li>
+					<li id="meni_vnos_ocena">
+						<a href="vnos_ocena.html">Vnos ocene</a>
+					</li>
+					<li id="meni_vnos_opravicilo">
+						<a href="vnos_opravicilo.html">Vnos opravičila</a>
+					</li>
+					<li id="meni_prikaz_redovalnica">
+						<a href="prikaz_redovalnica.html">Prikaz redovalnice</a>
+					</li>
+					<li id="meni_prikaz_odsotnost">
+						<a href="prikaz_odsotnost.html">Poročilo odsotnosti</a>
+					</li>
+					<li id="meni_odjava">
+						<a href="vstop.html">Odjava</a>
+					</li>
+				</ul>
+			</nav>
+		<main class="ui body">
+			
+		</main>
 		<footer class="ui footer">
 			&copy; Jan Boštjančič
 		</footer>
@@ -31,7 +60,8 @@
 		<!-- javascript tema -->
 		<script type="application/javascript" src="../js/tema.js"></script>
 		<!-- javascript validacija -->
-		<script type="text/javascript" src="../js/validacije/validacija.js"></script>
+		<script type="application/javascript" src="../js/validacije/piskoti.js"></script>
+		<script type="application/javascript" src="../js/validacije/uporabnik.js"></script>
 		<!-- javascript ostalo -->
 	</body>
 </html>

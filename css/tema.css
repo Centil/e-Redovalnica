@@ -4,20 +4,22 @@ body {
 	font-family: "Times New Roman", Times, serif;
 	margin: auto;
 	width: 98%;
+	height: auto;
 	max-width: 1050px;
 }
 
-section {
+main {
 	background-color:aliceblue;
 	padding: 25px 0px 25px 0px
 }
 
 .ui.header {
 	width: auto;
-	background-color: firebrick;
+	background: linear-gradient(180deg, #660000, #880000);
 	border: 3px solid #7e0505;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
+	overflow: hidden;
 }
 
 .ui.footer {
@@ -25,7 +27,7 @@ section {
 	text-align: right;
 	color: aliceblue;
 	padding-right: 15px;
-	background-color: firebrick;
+	background: linear-gradient(360deg, #660000, #880000);
 	border: 3px solid #7e0505;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
@@ -64,12 +66,12 @@ section {
 	text-align: right;
 	font-weight: normal;
 	font-size: large;
-	margin: 0px 10px 0px 0px;
+	margin-right: 10px;
 	padding: 0px;
-	align-items: 
 }
 
 .ui.fieldset .ui.field {
+	font-weight: normal;
 }
 
 .ui.fieldset .ui.hint {
@@ -84,6 +86,54 @@ section {
 	display: inline-block;
 }
 
+/***** NAVIGATION CSS *****/
+
+.ui.navigation {
+	width: 100%;
+	background-color:aliceblue;
+}
+
+.ui.navigation ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.ui.navigation ul li {
+	float: left;
+}
+
+.ui.navigation ul li a:link, a:visited {
+	display: block;
+	width:  120px;
+	height: 40px;
+	padding: 4px;
+	font-weight: bold;
+	color: aliceblue;
+	background: linear-gradient(360deg, #660000, #880000);
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.ui.navigation ul li a:hover, a:active {
+	background: linear-gradient(180deg, #660000, #880000);
+}
+
+/***** BODY CSS *****/
+
+.ui.body h1, h2, h3, h4, h5, h6 {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.ui.body p {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+/***** OTHER CSS *****/
 
 .ui.hidden {
 	display: none;
